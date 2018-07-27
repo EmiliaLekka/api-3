@@ -1,0 +1,60 @@
+{
+    "getCeidgChangesCount": {
+        "pesel_numbers_to_collect": 4
+    },
+    "getCurrentCeidgStatusByName": {
+        "result": [
+            {
+                "in_spolka_cywilna": "nie",
+                "legal_form": "działalność gospodarcza",
+                "name": "Apteka prywatna MELISA",
+                "nip": "5673706969",
+                "start_date": "1993-01-01",
+                "status": "aktywna działalność"
+            }
+        ]
+    },
+    "getCurrentCeidgStatusByNip": {
+        "result": [
+            {
+                "in_spolka_cywilna": "nie",
+                "legal_form": "działalność gospodarcza",
+                "name": "KOWALSKI JAN",
+                "nip": "1246997402",
+                "start_date": "1992-01-01",
+                "status": "aktywna działalność"
+            }
+        ],
+        "status": "aktywna działalność"
+    },
+    "getCurrentCeidgStatusByPesel": {
+        "result": [
+            {
+                "in_spolka_cywilna": "nie",
+                "legal_form": "działalność gospodarcza",
+                "name": "P.P.H.U. ANNA KOWALSKA",
+                "nip": "1246997402",
+                "start_date": "2011-01-01",
+                "status": "aktywna działalność"
+            }
+        ],
+        "status": "aktywna działalność"
+    },
+    "getUsage": {
+        "data": {
+            "00302459672": [
+                {
+                    "2018-06": "1"
+                }
+            ],
+            "80250175501": [
+                {
+                    "2018-06": "3"
+                },
+                {
+                    "2018-05": "2"
+                }
+            ]
+        }
+    }
+}
